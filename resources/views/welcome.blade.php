@@ -81,13 +81,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Tutorial de PHP Laravel 7/6 
                 </div>
 
                 <div class="links">
                     <!-- <a href="https://laravel.com/docs">Docs</a> -->
-                    <a href="{{ route('contacts.create') }}">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="{{ route('contacts.create') }}">Nuevo Contacto</a>
+                    <!-- <a href="https://laracasts.com">Laracasts</a> -->
+                    <a href="{{ route('contacts.index') }}">Listado de Contactos</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="https://nova.laravel.com">Nova</a>

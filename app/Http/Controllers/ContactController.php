@@ -1,7 +1,7 @@
 <?php
-use App\Contact;
-namespace App\Http\Controllers;
 
+namespace App\Http\Controllers;
+use App\Contact;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
